@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="card-columns m-5 animated fadeIn">
+        <!--recorre nombre la informacion que devuelve la API-->
+        <div (click)="verArtista(item)" *ngFor="let item of items" class="card puntero">
+            <img [src]="item.images | noimage" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">{{ item.name }}</h5>
+                <!--recorre nombre de los artista-->
+                <p class="card-text"></p>
+                <span *ngFor="let artista of item.artists" class="badge badge-pill badge-primary">{{ artista.name }}</span
+        >
+      </div>
+    </div>
+  </div>
+</div>
