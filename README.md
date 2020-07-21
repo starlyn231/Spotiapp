@@ -26,7 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Este app no tiene la actualizacion automatica del toquen, en este caso hay que entrar posmant
+## Este app no tiene la actualizacion automatica del TOCKEN, en este caso hay que entrar posmant
 
 hacer un post a https://accounts.spotify.com/api/token
 con estos datos:
